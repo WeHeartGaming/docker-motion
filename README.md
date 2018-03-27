@@ -31,5 +31,5 @@ target_dir /media/
 # Parameters
 
 * `--device='/dev/video0:/dev/video0'` - Give the container access the webcam
-* `-v '/home/user/motion/config:/etc/motion'` - The location of the config folder
-* `-v '/home/user/motion/media:/media'` - The location of the pictures being saved
+* `-v '</path/to/config>:/etc/motion'` - The location of the config folder
+* `-v '</path/to/media>:/media'` - The location of the pictures being saved
